@@ -7,21 +7,36 @@
     justify-content: center;
     background-color: #fff;
     box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
 }
 
 .imagen-testimonio {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 20px;
+    border-radius: 1.5rem;
+    
 }
 
 .contenedor-texto-testimonio {
     text-align: center;
     padding: 40px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: 100;
     line-height: 1.5rem;
 }
 
 .nommbre.testimonio {
     font-size: 1.3rem;
+}
+
+.rol-testimonio {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.texto-testimonio {
+    font-size: 1.1rem;
+    text-align: justify;
 }
