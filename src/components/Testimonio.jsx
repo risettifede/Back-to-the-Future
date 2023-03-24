@@ -9,8 +9,8 @@ export function Testimonio(props) {
         src={require(`../images/Testimonio de Personajes/testimonio-${props.imagen}.png`)}
         alt="Foto de Marty" />
       <div className="contenedor-texto-testimonio">
-        <p className="nombre-testimonio">{props.nombre} en {props.pais}</p>
-        <p className="rol-testimonio">{props.rol} en {props.pelicula}</p>
+        <p className="nombre-testimonio"><strong>{props.nombre}</strong> en {props.pais}</p>
+        <p className="rol-testimonio"><strong>{props.rol}</strong> en {props.pelicula}</p>
         <p className="parrafo-testimonio">"{props.testimonio}"</p>
       </div>
     </div>
