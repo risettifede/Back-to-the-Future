@@ -31,11 +31,11 @@ function App() {
           rol="Mascota"
           pelicula="Back to the Future - Parte II"
           testimonio="¡Guau! Me gustria poder decir algo mas interesante que esto, pero el Doc Brown no logró que los animales hablaran."
-          />
+        />
       </div>
     </div>
   );
 }
 
 export default App;
-
+ 

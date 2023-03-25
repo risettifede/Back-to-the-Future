@@ -1,6 +1,6 @@
 .contenedor-testimonio {
-    width: 1170px;
-    height: 368px;
+    width: 900px;
+    height: 300px;
     margin: 10px 10px 50px;
     display: flex;
     align-items: center;
@@ -11,8 +11,8 @@
 }
 
 .imagen-testimonio {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 85%;
+    max-height: 85%;
     padding: 20px;
     border-radius: 1.5rem;
     
@@ -31,12 +31,12 @@
 }
 
 .rol-testimonio {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-top: 15px;
     padding-bottom: 30px;
 }
 
 .texto-testimonio {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: justify;
 }
